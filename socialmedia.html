@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media | ZahirahYaya</title>
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Social Media Box */
+        #social-media {
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #f9f9f9;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        /* Section Title */
+        #social-media h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        #social-media p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        /* Social Icons Container */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        /* Social Icon Style */
+        .social-icon img {
+            width: 50px;
+            height: 50px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .social-icon img:hover {
+            transform: scale(1.2);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 480px) {
+            .social-icon img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body id="top">
+
+    <!-- Header -->
+    <header class="s-header">
+        <div class="row s-header__inner width-sixteen-col">
+            <div class="s-header__block">
+                <div class="s-header__logo">
+                    <a class="logo" href="index.html">
+                        <img src="images/logoyaya.png" alt="Homepage">
+                    </a>
+                </div>
+                <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <nav class="s-header__nav">
+                <ul class="s-header__menu-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="interests.html">My Interests</a></li>
+                    <li><a href="professional.html">Professional Goals</a></li>
+                    <li class="current"><a href="socialmedia.html">Social Media</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="s-pageheader pageheader">
+        <div class="row">
+            <div class="column xl-12">
+                <h1 class="page-title">
+                    <span class="page-title__small-type text-pretitle">Social Media</span>
+                    Connect With Me
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social-media" class="social-media section" data-aos="fade-up">
+        <h2>Follow Me</h2>
+        <p>Follow me on my social media accounts to stay updated on my projects, hobbies, and interests!</p>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/p/Zahirah-Yaya-61555502136485/" target="_blank" class="social-icon facebook">
+                <img src="images/facebook.jpg" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/zahirahyayaa?igsh=MTY4aWE5ZXRydnc1cg%3D%3D&utm_source=qr" target="_blank" class="social-icon instagram">
+                <img src="images/instagram.jpg" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@yayalahni?_r=1&_t=ZS-91QPaGEla2D" target="_blank" class="social-icon tiktok">
+                <img src="images/tiktok.jpg" alt="Tiktok">
+            </a>
+           
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="s-footer">
+        <div class="row s-footer__bottom">
+            <div class="column xl-12 text-center">
+                <p class="ss-copyright">© 2025 ZahirahYaya | 23B10I001</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
